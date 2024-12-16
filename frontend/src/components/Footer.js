@@ -17,14 +17,18 @@ export const Footer = () => {
         </div>
         <div className="second mt-5">
           <h4>Get in Touch</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.</p>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
           <p>jaggi.mayank19@gmail.com</p>
           <p>+91-8400547870</p>
         </div>
         <div className="third mt-5">
           <p>About</p>
-          <p>Resume</p>
+          <a href="https://drive.google.com/file/d/1Yco6u7Whqp6eCvn2xTrkICD1WKdy2gv7/view?usp=drive_link">
+            Download CV
+          </a>
         </div>
       </div>
     </div>

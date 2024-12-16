@@ -28,7 +28,7 @@ const UserSchema = new mongooes.Schema({
 });
 
 //save Message
-UserSchema.methods.MessageSave = async function (message) {
+UserSchema.methods.messageSave = async function (message) {
   try {
     this.messages = this.messages.concat({ message });
     await this.save();
